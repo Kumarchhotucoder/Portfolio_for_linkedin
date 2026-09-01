@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import {
   SiReact, SiJavascript, SiHtml5, SiCss, SiTailwindcss, SiRedux,
   SiNodedotjs, SiExpress, SiMongodb,
-  SiCplusplus, SiGit, SiGithub, SiPostman, SiVercel,
+  SiC, SiGit, SiGithub, SiPostman, SiVercel,
   SiFirebase
 } from 'react-icons/si';
 import { FaJava } from 'react-icons/fa';
@@ -40,7 +40,7 @@ const skillCategories = [
     icon: <Cpu size={22} />,
     color: '#F6AD55',
     skills: [
-      { name: 'C++', icon: <SiCplusplus />, level: 85, color: '#00599C' },
+      { name: 'C', icon: <SiC />, level: 85, color: '#A8B9CC' },
       { name: 'Java', icon: <FaJava />, level: 75, color: '#ED8B00' },
       { name: 'DSA', icon: <Cpu size={16} />, level: 80, color: '#FFA116' },
       { name: 'OOP', icon: <Code2 size={16} />, level: 85, color: '#bc1888' },
