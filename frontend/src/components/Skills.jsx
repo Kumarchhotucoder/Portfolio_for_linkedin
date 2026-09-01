@@ -1,12 +1,13 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import {
-  SiReact, SiJavascript, SiHtml5, SiCss3, SiTailwindcss, SiRedux,
-  SiNodedotjs, SiExpress, SiMongodb, SiJsonwebtokens,
-  SiCplusplus, SiJava, SiGit, SiGithub, SiPostman, SiVercel,
-  SiFirebase, SiVite, SiTypescript
+  SiReact, SiJavascript, SiHtml5, SiCss, SiTailwindcss, SiRedux,
+  SiNodedotjs, SiExpress, SiMongodb,
+  SiCplusplus, SiGit, SiGithub, SiPostman, SiVercel,
+  SiFirebase
 } from 'react-icons/si';
-import { Database, Code2, Cpu, Wrench } from 'lucide-react';
+import { FaJava } from 'react-icons/fa';
+import { Database, Code2, Cpu, Wrench, Lock } from 'lucide-react';
 
 const skillCategories = [
   {
@@ -17,7 +18,7 @@ const skillCategories = [
       { name: 'React.js', icon: <SiReact />, level: 90, color: '#61DAFB' },
       { name: 'JavaScript', icon: <SiJavascript />, level: 88, color: '#F7DF1E' },
       { name: 'HTML5', icon: <SiHtml5 />, level: 95, color: '#E34F26' },
-      { name: 'CSS3', icon: <SiCss3 />, level: 85, color: '#1572B6' },
+      { name: 'CSS3', icon: <SiCss />, level: 85, color: '#1572B6' },
       { name: 'Tailwind CSS', icon: <SiTailwindcss />, level: 80, color: '#06B6D4' },
       { name: 'Redux', icon: <SiRedux />, level: 75, color: '#764ABC' },
     ]
@@ -31,7 +32,7 @@ const skillCategories = [
       { name: 'Express.js', icon: <SiExpress />, level: 82, color: '#ffffff' },
       { name: 'MongoDB', icon: <SiMongodb />, level: 80, color: '#47A248' },
       { name: 'REST APIs', icon: <Database size={16} />, level: 88, color: '#00d2ff' },
-      { name: 'JWT Auth', icon: <SiJsonwebtokens />, level: 78, color: '#d63aff' },
+      { name: 'JWT Auth', icon: <Lock size={16} />, level: 78, color: '#d63aff' },
     ]
   },
   {
@@ -40,7 +41,7 @@ const skillCategories = [
     color: '#F6AD55',
     skills: [
       { name: 'C++', icon: <SiCplusplus />, level: 85, color: '#00599C' },
-      { name: 'Java', icon: <SiJava />, level: 75, color: '#ED8B00' },
+      { name: 'Java', icon: <FaJava />, level: 75, color: '#ED8B00' },
       { name: 'DSA', icon: <Cpu size={16} />, level: 80, color: '#FFA116' },
       { name: 'OOP', icon: <Code2 size={16} />, level: 85, color: '#bc1888' },
     ]
