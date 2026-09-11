@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Mail, Phone, Send } from 'lucide-react';
+import { FaWhatsapp } from 'react-icons/fa';
 import { motion } from 'framer-motion';
 import Tilt from 'react-parallax-tilt';
 
@@ -104,6 +105,20 @@ const Contact = () => {
                 <h4 style={{ fontSize: '1.2rem', marginBottom: '0.2rem' }}>Call Me</h4>
                 <a href="tel:+917766861339" style={{ color: 'var(--text-secondary)', textDecoration: 'none', transition: 'color 0.3s' }} onMouseOver={e => e.currentTarget.style.color = 'var(--accent-primary)'} onMouseOut={e => e.currentTarget.style.color = 'var(--text-secondary)'}>
                   +91 7766861339
+                </a>
+              </div>
+            </div>
+          </Tilt>
+
+          <Tilt tiltMaxAngleX={10} tiltMaxAngleY={10} perspective={1000} scale={1.05} transitionSpeed={1000} glareEnable={true} glareMaxOpacity={0.1} glareColor="white" glarePosition="all">
+            <div className="glass-panel" style={{ padding: '2rem', borderRadius: '16px', display: 'flex', alignItems: 'center', gap: '1.5rem', border: '1px solid rgba(37, 211, 102, 0.3)' }}>
+              <div style={{ background: 'linear-gradient(135deg, #25D366 0%, #128C7E 100%)', padding: '1rem', borderRadius: '50%', color: 'white' }}>
+                <FaWhatsapp size={28} />
+              </div>
+              <div style={{ textAlign: 'left' }}>
+                <h4 style={{ fontSize: '1.2rem', marginBottom: '0.2rem' }}>WhatsApp</h4>
+                <a href="https://wa.me/917766861339?text=Hi%20Chhotu,%20I%20saw%20your%20portfolio!" target="_blank" rel="noopener noreferrer" style={{ color: '#25D366', textDecoration: 'none', fontWeight: '500', transition: 'all 0.3s' }} onMouseOver={e => e.currentTarget.style.textDecoration = 'underline'} onMouseOut={e => e.currentTarget.style.textDecoration = 'none'}>
+                  +91 7766861339 (Chat Now)
                 </a>
               </div>
             </div>
