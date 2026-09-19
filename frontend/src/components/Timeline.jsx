@@ -77,7 +77,7 @@ const Timeline = () => {
 
       <div style={{ position: 'relative', width: '100%', maxWidth: '800px', margin: '0 auto' }}>
         {/* Center Line */}
-        <motion.div 
+        <motion.div
           initial={{ height: 0 }}
           whileInView={{ height: '100%' }}
           viewport={{ once: true }}
@@ -96,8 +96,8 @@ const Timeline = () => {
         {timelineData.map((item, index) => {
           const isEven = index % 2 === 0;
           return (
-            <motion.div 
-              key={item.id} 
+            <motion.div
+              key={item.id}
               initial={{ opacity: 0, x: isEven ? -50 : 50 }}
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true, margin: "-100px" }}
@@ -140,19 +140,19 @@ const Timeline = () => {
                   transition: 'transform 0.3s ease, box-shadow 0.3s ease',
                   position: 'relative'
                 }}
-                onMouseOver={(e) => {
-                  e.currentTarget.style.transform = 'translateY(-5px)';
-                  e.currentTarget.style.boxShadow = '0 15px 30px rgba(220, 39, 67, 0.1)';
-                }}
-                onMouseOut={(e) => {
-                  e.currentTarget.style.transform = 'translateY(0)';
-                  e.currentTarget.style.boxShadow = 'none';
-                }}>
-                  
+                  onMouseOver={(e) => {
+                    e.currentTarget.style.transform = 'translateY(-5px)';
+                    e.currentTarget.style.boxShadow = '0 15px 30px rgba(220, 39, 67, 0.1)';
+                  }}
+                  onMouseOut={(e) => {
+                    e.currentTarget.style.transform = 'translateY(0)';
+                    e.currentTarget.style.boxShadow = 'none';
+                  }}>
+
                   <span style={{ display: 'inline-block', padding: '0.3rem 0.8rem', background: 'rgba(255,255,255,0.05)', borderRadius: '20px', fontSize: '0.85rem', color: 'var(--accent-primary)', marginBottom: '1rem', fontWeight: 'bold' }}>
                     {item.date}
                   </span>
-                  
+
                   <h3 style={{ fontSize: '1.4rem', marginBottom: '0.5rem', color: 'var(--text-primary)' }}>{item.title}</h3>
                   <h4 style={{ fontSize: '1.1rem', marginBottom: '1rem', color: 'var(--text-secondary)' }}>{item.subtitle}</h4>
                   <p style={{ color: 'var(--text-secondary)', lineHeight: '1.6' }}>{item.description}</p>

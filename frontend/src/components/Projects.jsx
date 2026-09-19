@@ -106,11 +106,11 @@ const initialProjects = [
     title: "AI Study Buddy",
     description: "An AI-powered academic assistant powered by the Google Gemini API. It answers queries, generates summaries, and provides personalized learning support with a real-time chat interface. Includes secure login and personalized chat history.",
     techStack: ["React", "Google Gemini API", "Firebase Auth", "Firestore"],
-    liveUrl: "https://friendly-heliotrope-2732e7.netlify.app/", 
+    liveUrl: "https://friendly-heliotrope-2732e7.netlify.app/",
     githubUrl: "https://github.com/Kumarchhotucoder/Ai-Study-Buddy",
     repoSlug: "Kumarchhotucoder/Ai-Study-Buddy",
     featured: false,
-    badgeText: "🎓 AI Learning Assistant",
+    badgeText: "🤖 AI Powered Assistant",
     badgeColor: "rgba(188, 24, 136, 0.15)",
     badgeTextColor: "#bc1888",
     highlights: [
@@ -254,21 +254,21 @@ const Projects = () => {
                 <div style={{ display: 'flex', flexWrap: 'wrap', alignItems: 'center', justifyContent: 'space-between', gap: '0.75rem', marginBottom: '1.2rem' }}>
                   <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.6rem', alignItems: 'center' }}>
                     {project.badgeText && (
-                      <div style={{ 
+                      <div style={{
                         display: 'inline-flex',
                         alignItems: 'center',
                         gap: '0.4rem',
-                        padding: '0.35rem 0.9rem', 
-                        background: project.badgeColor || 'rgba(240, 148, 51, 0.15)', 
-                        color: project.badgeTextColor || '#f09433', 
-                        borderRadius: '50px', 
-                        fontSize: '0.8rem', 
+                        padding: '0.35rem 0.9rem',
+                        background: project.badgeColor || 'rgba(240, 148, 51, 0.15)',
+                        color: project.badgeTextColor || '#f09433',
+                        borderRadius: '50px',
+                        fontSize: '0.8rem',
                         fontWeight: 'bold'
                       }}>
                         {project.badgeText}
                       </div>
                     )}
-                    
+
                     <div style={{
                       display: 'inline-flex',
                       alignItems: 'center',
@@ -313,7 +313,7 @@ const Projects = () => {
                     </div>
                   )}
                 </div>
-                
+
                 {/* Title */}
                 <h3 style={{ fontSize: '1.9rem', marginBottom: '1rem', color: 'var(--text-primary)', lineHeight: 1.3 }}>
                   {project.title}
@@ -335,7 +335,7 @@ const Projects = () => {
                     ))}
                   </div>
                 )}
-                
+
                 {/* Tech Stack */}
                 <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.5rem', marginBottom: '2.2rem' }}>
                   {project.techStack.map((tech, i) => (
@@ -362,7 +362,7 @@ const Projects = () => {
                     </button>
                   </a>
                 )}
-                
+
                 {project.githubUrl && project.githubUrl !== '#' && (
                   <a href={project.githubUrl} target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }}>
                     <button className="btn-secondary" style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', padding: '0.7rem 1.4rem', fontSize: '0.95rem' }}>
