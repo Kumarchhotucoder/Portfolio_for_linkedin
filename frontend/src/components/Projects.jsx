@@ -6,6 +6,30 @@ import Tilt from 'react-parallax-tilt';
 
 const initialProjects = [
   {
+    id: "secureprint",
+    title: "SecurePrint — Multi-Tenant Cloud Printing SaaS",
+    description: "A production-grade multi-tenant SaaS printing platform engineered for cyber cafes and commercial print shops ('Print documents without WhatsApp'). Features dedicated shop portals, permanent QR codes, automated Razorpay payments, real-time WebSocket queues, and a cryptographically verified 10-second post-payment auto-deletion pipeline for strict user privacy.",
+    techStack: ["React", "Node.js", "Express", "MongoDB", "Socket.io", "Razorpay", "Tailwind CSS", "HMAC-SHA256"],
+    liveUrl: "https://secureprint-mu.vercel.app",
+    githubUrl: "https://github.com/Kumarchhotucoder/SECUREPRINT",
+    repoSlug: "Kumarchhotucoder/SECUREPRINT",
+    featured: true,
+    badgeText: "🔥 Production Multi-Tenant SaaS",
+    badgeColor: "rgba(168, 85, 247, 0.15)",
+    badgeTextColor: "#a855f7",
+    highlights: [
+      "Zero-WhatsApp print workflow: Scan Shop QR → Upload → Print → Auto-cleanup",
+      "Tamper-proof Razorpay payment integration with HMAC-SHA256 verification",
+      "Automated server-side 10-second post-payment cryptographic file deletion"
+    ],
+    githubStats: {
+      stars: 0,
+      forks: 0,
+      pushedAt: '2026-09-18T18:26:28Z',
+      language: 'JavaScript'
+    }
+  },
+  {
     id: "smart-library",
     title: "Smart Library — Personal Library & QR Attendance System",
     description: "A production-grade library management system engineered for physical study spaces with 50-seat real-time visual occupancy tracking. Features dynamic HMAC-SHA256 encrypted QR attendance with 45-second anti-fraud rotation, mobile camera scanner, admin monitoring dashboard, automatic seat sync, and automated .xlsx Excel report generation.",
@@ -38,7 +62,7 @@ const initialProjects = [
     githubUrl: "https://github.com/Kumarchhotucoder/bi_reena_tallyX",
     repoSlug: "Kumarchhotucoder/bi_reena_tallyX",
     featured: true,
-    badgeText: "🔥 Featured Live Project",
+    badgeText: "⚡ Fast Keyboard-First SaaS",
     badgeColor: "rgba(240, 148, 51, 0.15)",
     badgeTextColor: "#f09433",
     highlights: [
@@ -54,6 +78,30 @@ const initialProjects = [
     }
   },
   {
+    id: "ai-revenue-recovery",
+    title: "Autonomous Revenue Recovery Agent",
+    description: "An AI-driven autonomous financial recovery agent that analyzes failed subscription transactions and payment patterns. Leverages an embedded Policy Engine to balance revenue recovery with customer experience, executing automated retries while escalating high-risk decisions for human sign-off.",
+    techStack: ["React", "Node.js", "Express", "AI Policy Engine", "Razorpay API", "REST APIs"],
+    liveUrl: "https://github.com/Kumarchhotucoder/AI-Revenue-Recovery",
+    githubUrl: "https://github.com/Kumarchhotucoder/AI-Revenue-Recovery",
+    repoSlug: "Kumarchhotucoder/AI-Revenue-Recovery",
+    featured: false,
+    badgeText: "🤖 AI FinTech Agent",
+    badgeColor: "rgba(34, 197, 94, 0.15)",
+    badgeTextColor: "#22c55e",
+    highlights: [
+      "Context-aware AI decision engine analyzing customer payment history",
+      "Strict policy guardrails ensuring safe autonomous financial actions",
+      "Automated Razorpay retry routing and real-time recovered revenue dashboard"
+    ],
+    githubStats: {
+      stars: 0,
+      forks: 0,
+      pushedAt: '2026-09-05T17:24:27Z',
+      language: 'JavaScript'
+    }
+  },
+  {
     id: "ai-study-buddy",
     title: "AI Study Buddy",
     description: "An AI-powered academic assistant powered by the Google Gemini API. It answers queries, generates summaries, and provides personalized learning support with a real-time chat interface. Includes secure login and personalized chat history.",
@@ -62,7 +110,7 @@ const initialProjects = [
     githubUrl: "https://github.com/Kumarchhotucoder/Ai-Study-Buddy",
     repoSlug: "Kumarchhotucoder/Ai-Study-Buddy",
     featured: false,
-    badgeText: "🤖 AI Powered Assistant",
+    badgeText: "🎓 AI Learning Assistant",
     badgeColor: "rgba(188, 24, 136, 0.15)",
     badgeTextColor: "#bc1888",
     highlights: [

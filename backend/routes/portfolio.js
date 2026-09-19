@@ -7,6 +7,16 @@ const Experience = require('../models/Experience');
 // Default curated portfolio projects
 const defaultProjects = [
   {
+    title: "SecurePrint — Multi-Tenant Cloud Printing SaaS",
+    description: "A production-grade multi-tenant SaaS printing platform engineered for cyber cafes and commercial print shops ('Print documents without WhatsApp'). Features dedicated shop portals, permanent QR codes, automated Razorpay payments, real-time WebSocket queues, and a cryptographically verified 10-second post-payment auto-deletion pipeline for strict user privacy.",
+    techStack: ["React", "Node.js", "Express", "MongoDB", "Socket.io", "Razorpay", "Tailwind CSS", "HMAC-SHA256"],
+    liveLink: "https://secureprint-mu.vercel.app",
+    githubLink: "https://github.com/Kumarchhotucoder/SECUREPRINT",
+    demoLink: "https://secureprint-mu.vercel.app",
+    repoSlug: "Kumarchhotucoder/SECUREPRINT",
+    featured: true
+  },
+  {
     title: "Smart Library — Personal Library & QR Attendance System",
     description: "A production-grade library management system engineered for physical study spaces with 50-seat real-time visual occupancy tracking. Features dynamic HMAC-SHA256 encrypted QR attendance with 45-second anti-fraud rotation, mobile camera scanner, admin monitoring dashboard, automatic seat sync, and automated .xlsx Excel report generation.",
     techStack: ["React 19", "TypeScript", "Node.js", "Express", "MongoDB", "Tailwind CSS", "HMAC-SHA256 QR", "ExcelJS"],
@@ -25,6 +35,16 @@ const defaultProjects = [
     demoLink: "https://bi-reena-tally-x-sg2i.vercel.app/",
     repoSlug: "Kumarchhotucoder/bi_reena_tallyX",
     featured: true
+  },
+  {
+    title: "Autonomous Revenue Recovery Agent",
+    description: "An AI-driven autonomous financial recovery agent that analyzes failed subscription transactions and payment patterns. Leverages an embedded Policy Engine to balance revenue recovery with customer experience, executing automated retries while escalating high-risk decisions for human sign-off.",
+    techStack: ["React", "Node.js", "Express", "AI Policy Engine", "Razorpay API", "REST APIs"],
+    liveLink: "https://github.com/Kumarchhotucoder/AI-Revenue-Recovery",
+    githubLink: "https://github.com/Kumarchhotucoder/AI-Revenue-Recovery",
+    demoLink: "https://github.com/Kumarchhotucoder/AI-Revenue-Recovery",
+    repoSlug: "Kumarchhotucoder/AI-Revenue-Recovery",
+    featured: false
   },
   {
     title: "AI Study Buddy",
