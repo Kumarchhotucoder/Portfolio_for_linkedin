@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import {
-  SiReact, SiJavascript, SiHtml5, SiCss, SiTailwindcss, SiRedux,
+  SiReact, SiJavascript, SiTypescript, SiHtml5, SiCss, SiTailwindcss, SiRedux,
   SiNodedotjs, SiExpress, SiMongodb,
   SiC, SiGit, SiGithub, SiPostman, SiVercel,
   SiFirebase
@@ -17,9 +17,10 @@ const skillCategories = [
     skills: [
       { name: 'React.js', icon: <SiReact />, level: 90, color: '#61DAFB' },
       { name: 'JavaScript', icon: <SiJavascript />, level: 88, color: '#F7DF1E' },
+      { name: 'TypeScript', icon: <SiTypescript />, level: 84, color: '#3178C6' },
       { name: 'HTML5', icon: <SiHtml5 />, level: 95, color: '#E34F26' },
       { name: 'CSS3', icon: <SiCss />, level: 85, color: '#1572B6' },
-      { name: 'Tailwind CSS', icon: <SiTailwindcss />, level: 80, color: '#06B6D4' },
+      { name: 'Tailwind CSS', icon: <SiTailwindcss />, level: 82, color: '#06B6D4' },
       { name: 'Redux', icon: <SiRedux />, level: 75, color: '#764ABC' },
     ]
   },

@@ -16,9 +16,18 @@ const Timeline = () => {
     {
       id: 2,
       type: 'project',
+      title: 'Core Full-Stack Developer',
+      subtitle: 'Smart Library Management System',
+      date: 'Sep 2026',
+      description: 'Engineered a production-ready physical library portal featuring dynamic HMAC-SHA256 encrypted QR attendance, real-time 50-seat layout sync, and automated Excel reporting.',
+      icon: <Code size={20} />
+    },
+    {
+      id: 3,
+      type: 'project',
       title: 'Full-Stack Developer',
       subtitle: 'BireenaTallyX',
-      date: '2025',
+      date: '2025 - 2026',
       description: 'Built a full-stack accounting platform designed around keyboard-first workflows, handling Invoice, Ledger, GST Filing, and more.',
       icon: <Code size={20} />
     },
