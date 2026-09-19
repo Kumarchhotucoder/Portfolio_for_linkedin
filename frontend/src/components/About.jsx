@@ -40,7 +40,7 @@ const About = () => {
             I gradually moved from solving coding problems to developing complete, real-world applications using <strong style={{ color: 'var(--text-primary)' }}>React.js, Node.js, Express.js, MongoDB, and cloud technologies</strong>. I am currently working as a Software Developer Intern at Bireena Info Tech.
           </p>
           <p style={{ fontSize: '1.1rem', color: 'var(--text-secondary)', lineHeight: '1.8' }}>
-            Alongside development, I have consistently worked on Data Structures & Algorithms, solving <strong style={{ color: 'var(--text-primary)' }}>600+ problems across LeetCode and GeeksForGeeks</strong>. My goal is to build impactful products, keep learning continuously, and turn complex problems into simple, scalable solutions.
+            Alongside development, I have consistently worked on Data Structures & Algorithms, solving <strong style={{ color: 'var(--text-primary)' }}>630+ problems across LeetCode (467) and GeeksForGeeks (169)</strong>. My goal is to build impactful products, keep learning continuously, and turn complex problems into simple, scalable solutions.
           </p>
         </motion.div>
 
