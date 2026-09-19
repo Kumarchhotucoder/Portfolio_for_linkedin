@@ -16,15 +16,6 @@ const Timeline = () => {
     {
       id: 2,
       type: 'project',
-      title: 'Full-Stack SaaS Architect',
-      subtitle: 'SecurePrint — Multi-Tenant Cloud Printing',
-      date: 'Sep 2026',
-      description: 'Architected a multi-tenant printing SaaS with permanent QR shop routing, Razorpay payment verification, WebSocket live queues, and 10-second cryptographic auto-deletion.',
-      icon: <Code size={20} />
-    },
-    {
-      id: 3,
-      type: 'project',
       title: 'Core Full-Stack Developer',
       subtitle: 'Smart Library Management System',
       date: 'Sep 2026',
